@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\netcore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj": {}
+    "D:\\NetCore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj": {}
   },
   "projects": {
-    "D:\\netcore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj": {
+    "D:\\NetCore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\netcore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj",
+        "projectUniqueName": "D:\\NetCore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj",
         "projectName": "AspNetCoreEscuela",
-        "projectPath": "D:\\netcore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj",
+        "projectPath": "D:\\NetCore\\AspNetCoreEscuela\\AspNetCoreEscuela.csproj",
         "packagesPath": "C:\\Users\\DUVAN\\.nuget\\packages\\",
-        "outputPath": "D:\\netcore\\AspNetCoreEscuela\\obj\\",
+        "outputPath": "D:\\NetCore\\AspNetCoreEscuela\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
