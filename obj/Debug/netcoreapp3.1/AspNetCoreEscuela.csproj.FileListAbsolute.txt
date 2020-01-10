@@ -33,3 +33,10 @@ d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\AspNetCoreEscuela.Views.pdb
 d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\AspNetCoreEscuela.dll
 d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\AspNetCoreEscuela.pdb
 D:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\AspNetCoreEscuela.csproj.CopyComplete
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\Index.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\Index.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Asignatura\MultiAsignatura.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ObjetoEscuelaSimple.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Alumno\Index.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Alumno\MultiAlumno.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ListaObjetosEscuela.cshtml.g.cs
