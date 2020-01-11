@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using AspNetCoreEscuela.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,22 +7,17 @@ namespace AspNetCoreEscuela.Controllers
 {
     public class EscuelaController : Controller
     {
+        private EscuelaContext _context;
         public IActionResult Index()
         {
-            var escuela = new Escuela();
-            escuela.AñoDeCreacion = 2005;
-            escuela.UniqueId = Guid.NewGuid().ToString();
-            escuela.Nombre = "Platzi School";
-            escuela.Ciudad = "Bogota";
-            escuela.Pais = "Colombia";
-            escuela.Dirección = "Avd Siempre Viva";
-            escuela.TipoEscuela = TiposEscuela.Secundaria;
-
             ViewBag.CosaDinamica = "La Monja";
-
-            ViewBag.Fecha = DateTime.Now;
-
+            var escuela = _context.Escuelas.FirstOrDefault();
             return View(escuela);
+        }
+
+        public EscuelaController(EscuelaContext context)
+        {
+            _context = context;
         }
     }
 }
