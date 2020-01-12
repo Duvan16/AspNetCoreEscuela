@@ -29,7 +29,7 @@ namespace AspNetCoreEscuela.Models
             escuela.Nombre = "Platzi School";
             escuela.Ciudad = "Bogota";
             escuela.Pais = "Colombia";
-            escuela.Dirección = "Avd Siempre Viva";
+            escuela.Dirección = "Avenida Siempre Viva";
             escuela.TipoEscuela = TiposEscuela.Secundaria;
 
             //Cargar cursos de la escuela
@@ -80,11 +80,14 @@ namespace AspNetCoreEscuela.Models
         private static List<Curso> CargarCursos(Escuela escuela)
         {
             return new List<Curso>(){
-                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "101", Jornada=TiposJornada.Mañana},
-                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "201", Jornada=TiposJornada.Mañana},
-                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "301", Jornada=TiposJornada.Mañana},
-                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "401", Jornada=TiposJornada.Tarde},
-                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "501", Jornada=TiposJornada.Tarde},
+                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "101",
+                Dirección = "Avenida Siempre Viva", Jornada=TiposJornada.Mañana},
+                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "201",
+                Dirección = "Avenida Siempre Viva",Jornada=TiposJornada.Mañana},
+                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "301"
+                , Dirección = "Avenida Siempre Viva",Jornada=TiposJornada.Mañana},
+                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "401", Dirección = "Avenida Siempre Viva",Jornada=TiposJornada.Tarde},
+                new Curso() { Id = Guid.NewGuid().ToString(),EscuelaId = escuela.Id, Nombre = "501", Dirección = "Avenida Siempre Viva",Jornada=TiposJornada.Tarde},
             };
         }
 

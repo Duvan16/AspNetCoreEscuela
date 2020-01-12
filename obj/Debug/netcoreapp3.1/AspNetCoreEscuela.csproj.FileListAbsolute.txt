@@ -60,3 +60,6 @@ d:\NetCore\AspNetCoreEscuela\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni
 d:\NetCore\AspNetCoreEscuela\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 d:\NetCore\AspNetCoreEscuela\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 d:\NetCore\AspNetCoreEscuela\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Index.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Curso\MultiCurso.cshtml.g.cs
+d:\NetCore\AspNetCoreEscuela\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Create.cshtml.g.cs

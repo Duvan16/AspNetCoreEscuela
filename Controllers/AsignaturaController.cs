@@ -8,9 +8,23 @@ namespace AspNetCoreEscuela.Controllers
 {
     public class AsignaturaController : Controller
     {
-        public IActionResult Index()
+        [Route("Asignatura/Index")]
+        [Route("Asignatura/Index/{asignturaId}")]
+        public IActionResult Index(string asignturaId)
         {
-            return View(_context.Asignaturas.FirstOrDefault());
+            if (!string.IsNullOrWhiteSpace(asignturaId))
+            {
+                var asignatura = from asig in _context.Asignaturas
+                                 where asig.Id == asignturaId
+                                 select asig;
+
+                return View(asignatura.SingleOrDefault());
+            }
+            else
+            {
+                return View("MultiAsignatura", _context.Asignaturas);
+            }
+
         }
         public IActionResult MultiAsignatura()
         {
