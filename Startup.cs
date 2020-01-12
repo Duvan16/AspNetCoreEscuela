@@ -26,8 +26,16 @@ namespace AspNetCoreEscuela
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            // services.AddDbContext<EscuelaContext>(
+            //     options => options.UseInMemoryDatabase(databaseName: "testDB")
+            // );
+            // Conexion  a Db in Azure
+            string connString = ConfigurationExtensions.
+GetConnectionString(this.Configuration, "DefaultConnectionString");
             services.AddDbContext<EscuelaContext>(
-                options => options.UseInMemoryDatabase(databaseName: "testDB")
+            // utilizamos un delegado para configurar
+            // el servicio de la DB in Azure pasandole por parametro la cadena de conexion
+            options => options.UseSqlServer(connString)
             );
         }
 
