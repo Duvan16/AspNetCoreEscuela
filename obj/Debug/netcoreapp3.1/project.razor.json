@@ -20501,6 +20501,11 @@
   "RootNamespace": "AspNetCoreEscuela",
   "Documents": [
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Asignatura\\Create.cshtml",
+      "TargetPath": "Views\\Asignatura\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Escuela\\Index.cshtml",
       "TargetPath": "Views\\Escuela\\Index.cshtml",
       "FileKind": "mvc"
@@ -20511,8 +20516,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Escuela\\Details.cshtml",
+      "TargetPath": "Views\\Escuela\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Alumno\\Delete.cshtml",
+      "TargetPath": "Views\\Alumno\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20526,13 +20541,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Evaluación\\Create.cshtml",
+      "TargetPath": "Views\\Evaluación\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Alumno\\Create.cshtml",
+      "TargetPath": "Views\\Alumno\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Curso\\Edit.cshtml",
+      "TargetPath": "Views\\Curso\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Curso\\Delete.cshtml",
+      "TargetPath": "Views\\Curso\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Asignatura\\MultiAsignatura.cshtml",
       "TargetPath": "Views\\Asignatura\\MultiAsignatura.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Escuela\\Edit.cshtml",
+      "TargetPath": "Views\\Escuela\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Alumno\\MultiAlumno.cshtml",
       "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Alumno\\Details.cshtml",
+      "TargetPath": "Views\\Alumno\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Alumno\\Edit.cshtml",
+      "TargetPath": "Views\\Alumno\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Asignatura\\Edit.cshtml",
+      "TargetPath": "Views\\Asignatura\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20571,13 +20626,58 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Evaluación\\Delete.cshtml",
+      "TargetPath": "Views\\Evaluación\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Curso\\Details.cshtml",
+      "TargetPath": "Views\\Curso\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Escuela\\Delete.cshtml",
+      "TargetPath": "Views\\Escuela\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Evaluación\\Edit.cshtml",
+      "TargetPath": "Views\\Evaluación\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Evaluación\\Details.cshtml",
+      "TargetPath": "Views\\Evaluación\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Asignatura\\Delete.cshtml",
+      "TargetPath": "Views\\Asignatura\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Evaluación\\Index.cshtml",
+      "TargetPath": "Views\\Evaluación\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Escuela\\Create.cshtml",
+      "TargetPath": "Views\\Escuela\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Shared\\ListaObjetosEscuela.cshtml",
       "TargetPath": "Views\\Shared\\ListaObjetosEscuela.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\NetCore\\AspNetCoreEscuela\\Views\\Asignatura\\Details.cshtml",
+      "TargetPath": "Views\\Asignatura\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
